@@ -1,0 +1,114 @@
+division_template = {
+	name = "Infanterie-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Mountain Garnision"		# Gebirgsbrigade
+	#Note: precursor to Gebirgs-Divisions
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Kavallerie-Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 }
+	}
+}
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "EQR"
+		}
+		requested_factories = 2
+		progress = 0.9
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "EQR" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+}
+
+units = {
+division= {	
+		name = "Garnison Luna"
+		location = 1806
+		division_template = "Mountain Garnision"
+		start_experience_factor = 0.9
+	}
+
+division= {	
+		name = "Garnison Celestria"
+		location = 1806
+		division_template = "Mountain Garnision"
+		start_experience_factor = 0.9
+	}
+
+division= {	
+		name = "Kavallerie-Kommando"
+		location = 1806
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.9
+	}
+
+division= {	
+		name = "1. Infanterie-Division"
+		location = 1806
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.9
+	}	
+
+division= {	
+		name = "2. Infanterie-Division"
+		location = 1806
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.9
+	}	
+
+division= {	
+		name = "3. Infanterie-Division"
+		location = 1806
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.9
+	}	
+}

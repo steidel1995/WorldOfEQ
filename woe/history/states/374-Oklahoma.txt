@@ -1,0 +1,43 @@
+
+state={
+	id=374
+	name="STATE_374"
+	resources={
+		aluminium=32.000
+		tungsten=32.000
+	}
+
+	history={
+		owner = EQR
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			air_base = 2
+			arms_factory = 1
+
+		}
+		
+		victory_points = {
+			8025 30 
+		}
+
+		add_core_of = EQR
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+
+
+			}
+			
+
+		}
+
+	}
+
+	provinces={
+		1618 1738 2055 2082 2102 3875 3960 3972 4586 4740 4919 5085 5103 7762 7904 8025 9822 9908 9920 10340 10702 10798 10861 11743 11802 12624 12848 
+	}
+	manpower=8396039
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=475
+	name="STATE_475"
+	manpower = 805874
+	
+	state_category = town
+
+	history={
+		owner = CLE
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CLE
+	}
+
+	provinces={
+		1900 12753 12867 
+	}
+	
+}

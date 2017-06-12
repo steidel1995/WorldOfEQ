@@ -1,0 +1,26 @@
+
+state={
+	id=375
+	name="STATE_375"
+	resources={
+		tungsten=15.000
+		chromium=8.000
+	}
+
+	history={
+		owner = EQR
+		buildings = {
+			infrastructure = 6
+			air_base = 3
+		}
+		add_core_of = EQR
+
+	}
+
+	provinces={
+		1915 1954 1998 3867 3883 4955 4975 5022 5038 6798 7836 7981 8064 8070 9773 10740 10867 10894 12301 12684 12720 12728 12791 12875 12893 
+	}
+	manpower=5824712
+	buildings_max_level_factor=1.000
+	state_category=town
+}

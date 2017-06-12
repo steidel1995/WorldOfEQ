@@ -1,0 +1,27 @@
+
+state={
+	id=485
+	name="STATE_485"
+
+	history={
+		owner = CLE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			8032 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = CLE
+
+	}
+
+	provinces={
+		2051 4887 5052 8032 10832 12746 12873 13089 
+	}
+	manpower=12831112
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

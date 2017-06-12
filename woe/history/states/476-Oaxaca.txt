@@ -1,0 +1,30 @@
+
+state={
+	id=476
+	name="STATE_476"
+
+	history={
+		owner = CLE
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			industrial_complex = 4
+			10889 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = CLE
+		victory_points = {
+			5066 30.0 
+		}
+	}
+
+	provinces={
+		2021 5066 8236 10730 10773 10889 12712 
+	}
+	manpower=26333114
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

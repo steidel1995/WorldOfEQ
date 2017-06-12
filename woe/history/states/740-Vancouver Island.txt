@@ -1,0 +1,21 @@
+
+state={
+	id=740
+	name="STATE_740"
+	manpower = 596121
+	
+	state_category = town
+
+	history={
+		owner = CHE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CHE
+	}
+
+	provinces={
+		7259 1214 12259 12272 1420 
+	}
+	
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=469
+	name="STATE_469"
+
+	history={
+		owner = CHE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = CHE
+
+	}
+
+	provinces={
+		515 736 1788 1804 3481 3498 3769 4739 4759 4857 4860 4863 6726 6779 7348 7718 7880 7883 9669 10552 10593 10611 10624 10684 10706 11440 12572 12585 12603 12663 
+	}
+	manpower=2656051
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

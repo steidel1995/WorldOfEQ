@@ -1,0 +1,28 @@
+
+state={
+	id=277
+	name="STATE_277"
+
+	history={
+		owner = CLE
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 3
+
+		}
+		add_core_of = CLE
+		victory_points = {
+			1965 10 
+		}
+
+	}
+
+	provinces={
+		1965 2008 2011 7913 8079 8089 10732 12755 12810 
+	}
+	manpower=152440312
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

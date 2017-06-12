@@ -1,0 +1,38 @@
+
+state={
+	id=360
+	name="STATE_360"
+	resources={
+		steel=18.000
+	}
+
+	history={
+		owner = EQR
+		buildings = {
+			infrastructure = 8
+			air_base = 2
+
+		}
+
+		victory_points = {
+			11654 20 
+		}
+
+		add_core_of = EQR
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		702 734 862 1436 3697 3702 3733 3747 3880 6717 6795 6899 9664 9708 9836 11650 11654 11680 11817 
+	}
+	manpower=9631346
+	buildings_max_level_factor=1.000
+	state_category=city
+}

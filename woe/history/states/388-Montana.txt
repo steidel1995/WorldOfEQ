@@ -1,0 +1,26 @@
+
+state={
+	id=388
+	name="STATE_388"
+	manpower = 537605
+	state_category = rural
+	resources={
+		tungsten=16
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+		victory_points = {
+			3606 1 
+		}
+
+	}
+
+	provinces={
+		3606 
+	}
+}

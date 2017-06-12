@@ -1,0 +1,26 @@
+
+state={
+	id=373
+	name="STATE_373"
+
+	history={
+		owner = EQR
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 5
+
+		}
+		add_core_of = EQR
+		victory_points = {
+			1806 50 
+		}
+
+	}
+
+	provinces={
+		1352 1441 1534 1564 1621 1646 1806 2043 4444 4449 4540 4567 4569 4597 4625 4811 7586 7834 7892 9802 10370 10477 10717 12346 12361 12463 
+	}
+	manpower=15929365
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

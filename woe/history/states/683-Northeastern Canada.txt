@@ -1,0 +1,25 @@
+
+state={
+	id=683
+	name="STATE_683"
+	resources={
+		aluminium=8.000
+	}
+
+	history={
+		owner = CHE
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CHE
+
+	}
+
+	provinces={
+		761 3736 4753 7185 8962 10605 13182 13188 13190 
+	}
+	manpower=1246135
+	buildings_max_level_factor=1.000
+	state_category=city
+}

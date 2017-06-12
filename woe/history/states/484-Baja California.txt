@@ -1,0 +1,17 @@
+state = {
+	id=484
+	name="STATE_484"
+	manpower = 108841
+	state_category = rural
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+		}
+		add_core_of = USA
+
+	}
+	provinces= { 4678 }
+}

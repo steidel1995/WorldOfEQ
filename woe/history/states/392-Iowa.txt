@@ -1,0 +1,36 @@
+
+state={
+	id=392
+	name="STATE_392"
+	resources={
+		aluminium=8.000
+	}
+
+	history={
+		owner = EQR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+
+		}
+		add_core_of = EQR
+		victory_points = {
+			10341 5 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		703 709 751 926 1523 1560 1586 1678 1760 1770 1831 1849 3699 4029 4166 4664 4691 4738 4807 4834 4854 5205 7306 7449 7458 7536 7539 7607 7776 7829 9657 9678 9892 9910 10333 10341 10391 10478 10516 10526 10599 10666 11589 11971 12312 12357 12418 12456 
+	}
+	manpower=2470938
+	buildings_max_level_factor=1.000
+	state_category=town
+}

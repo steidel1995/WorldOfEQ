@@ -1,0 +1,29 @@
+
+state={
+	id=383
+	name="STATE_383"
+
+	history={
+		owner = EQR
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = EQR
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1753 1756 1809 1827 3869 4723 4760 4814 4830 4871 6887 7688 7780 10532 10535 10588 10606 10640 11772 12024 12561 12570 12633 12642 
+	}
+	manpower=880998
+	buildings_max_level_factor=1.000
+	state_category=town
+}

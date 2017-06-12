@@ -1,0 +1,36 @@
+
+state={
+	id=358
+	name="STATE_358"
+	resources={
+		steel=34.000
+		aluminium=14.000
+	}
+
+	history={
+		owner = EQR
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			dockyard = 2
+			air_base = 10
+			3878 = {
+				naval_base = 10
+
+			}
+
+		}
+		add_core_of = EQR
+		victory_points = {
+			3878 35.0 
+		}
+
+	}
+
+	provinces={
+		706 718 859 908 3693 3806 3863 3878 3894 6882 6909 6911 9673 9693 9774 9801 9847 9850 9864 11660 11740 11782 11900 
+	}
+	manpower=22588061
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

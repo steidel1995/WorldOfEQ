@@ -1,0 +1,127 @@
+﻿capital = 373
+
+oob = "EQR_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	transport = 1
+
+}
+
+set_convoys = 180
+set_national_unity = 0.85
+
+set_politics = {
+
+	parties = {
+		neutrality = { 
+			popularity = 85
+		}
+
+		fascism = {
+			popularity = 3
+		}
+
+		democratic = {
+			popularity = 6
+		}
+		
+		communism = {
+			popularity = 6
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	sour_loser
+
+}
+
+create_country_leader = {
+	name = "Princess Luna & Celestria"
+	desc = "POLITICS_Luna_Celestria_DESC"
+	picture = "The_Sisters_EQR.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		cornered_fox
+		political_dancer
+		spirit_of_genghis
+	}
+}
+
+create_country_leader = {
+	name = "Princess Celestria"
+	desc = "POLITICS_Princess_Celestria_DESC"
+	picture = "Princess_Celestria_EQR.dds"
+	expire = "1965.1.1"
+	ideology = anarchist_communism
+	traits = {
+		staunch_constitutionalist
+		spirit_of_genghis
+	}
+}
+
+create_country_leader = {
+	name = "Princess Luna"
+	desc = "POLITICS_Princess_Luna_DESC"
+	picture = "Princess_Luna_EQR.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		staunch_constitutionalist
+		cornered_fox
+	}
+}
+
+create_country_leader = {
+	name = "Discord"
+	desc = "POLITICS_Discord_DESC"
+	picture = "Discord_EQR.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		dictator
+		permanent_revolutionary
+		warmonger
+	}
+}

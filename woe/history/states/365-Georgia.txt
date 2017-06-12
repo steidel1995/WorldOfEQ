@@ -1,0 +1,40 @@
+
+state={
+	id=365
+	name="STATE_365"
+	resources={
+		steel=55.000
+	}
+
+
+	history={
+		owner = EQR
+		buildings = {
+			infrastructure = 6
+			air_base = 2
+			11975 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = EQR
+		victory_points = {
+			1547 10 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		638 1485 1547 3994 4653 5090 7118 7202 7527 7583 7612 7643 9949 9967 10029 10394 10437 10465 10492 11975 12384 
+	}
+	manpower=2908504
+	buildings_max_level_factor=1.000
+	state_category=town

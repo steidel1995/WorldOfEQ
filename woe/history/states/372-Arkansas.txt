@@ -1,0 +1,28 @@
+
+state={
+	id=372
+	name="STATE_372"
+	resources={
+		rubber=20.000
+	}
+
+	history={
+		owner = EQR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = EQR
+		victory_points = {
+			12458 5 
+		}
+
+	}
+
+	provinces={
+		805 1503 1528 1559 1927 4522 4577 4884 5001 6803 6968 7485 7543 7555 7599 7628 7945 9829 10355 10504 10778 12341 12401 12458 12486 12489 12778 
+	}
+	manpower=1854481
+	buildings_max_level_factor=1.000
+	state_category=town
+}

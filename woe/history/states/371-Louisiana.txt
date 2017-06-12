@@ -1,0 +1,32 @@
+
+state={
+	id=371
+	name="STATE_371"
+	resources={
+		chromium=16.000
+	}
+
+	history={
+		owner = EQR
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			air_base = 5
+
+		}
+
+		victory_points = {
+			10337 10 
+		}
+
+		add_core_of = EQR
+
+	}
+
+	provinces={
+		1500 1643 4507 4535 10337 12313 12398 12410 
+	}
+	manpower=2101592
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

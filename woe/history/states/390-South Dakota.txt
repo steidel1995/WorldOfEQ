@@ -1,0 +1,30 @@
+
+state={
+	id=390
+	name="STATE_390"
+	resources={
+		aluminium=8.000
+		oil=16.000
+	}
+
+	history={
+		owner = EQR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = EQR
+		victory_points = {
+			10569 10 
+		}
+
+	}
+
+	provinces={
+		1719 1747 1752 1767 1836 1866 1867 3750 4772 4820 4839 4880 6722 6752 6827 7862 7877 9880 10569 10587 10595 10618 10685 10709 10719 11788 12550 12566 12577 12620 12646 12667 12693 
+	}
+	manpower=692849
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}
