@@ -1,0 +1,23 @@
+ideas = {
+	political_advisor = {
+		generic_staunch_traditionalist = {
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = staunch_traditionalist limit = 1 }
+				}
+			}
+			traits = { staunch_traditionalist }
+			on_add = {
+				country_event = neu_advisor.1
+			}
+			do_effect = {
+				NOT = {
+					has_government = neutrality
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}
