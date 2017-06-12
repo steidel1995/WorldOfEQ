@@ -1,0 +1,101 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+default = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes"}
+		surnames = { }
+		callsigns = { }
+	}
+	#female = {
+	#	names = { "Juliette" "Anna" }
+	#	surnames = { }
+	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
+	#}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+}
+
+###############################################################
+# The Majors
+###############################################################
+EQR = {
+	male = {
+		names = {  Wind Svengallop Gladmane Flim Flam Snails Shining Record Thorax Big Braeburn Hayseed Apple
+			Cloudy Mr. Zephyr Pound Snip Pip Rumbke Tender Gladmane Fiery Soarin Joe Night Filthy Thunderlane
+			Bulk Flash Cheese Double Sunburst Quibble	
+			Sky Buck Ace Caramel Dr. Jeff Lucky Shooting Walter Crafty Star Neon Rare 
+			Royal Blender Ozean Bright Button Cotton Finish Stirke Truffle Tornado Action Shimmer Wave Guardian
+
+		}
+	}
+	female = {
+		names = { Apple Sweetie Babs Gabby Flurry Granny Maud Mrs. Diamond Zecora Silver Twist Sunset Trixie 
+			Suri Spoieled Daring Dizzy Coloratura Spitfire Blaze Fleetfoot Misty High
+			Cheerilee Jet Lightning Ms. Sugar Tree Moon Sassy Vapor Angel Sweetcream 
+			Bubble Fluffy Clover Berry Candy Cherry Coco Daisy Octavia Vinyl}
+	}
+	surnames = { 
+		Do Pie Smith Rose Breeze Dash Cake Taps Bolts Rider Pants
+		Redheart Goodall Whooves Bellator Melody Melodie Light Silverstar Crust Dust Safari 
+		Glider Belle Punch Hooves Whooves Hugger Dancer Wings Trail Stringer Scoops Singer Gaffer Burst Withers Huricane 
+		Shot Cobbler Fritter Cider Dreams Dreamers Apples Fizzy Dove Harvest Jevel 
+		Wave Sweet Riff Fare Mash 
+		}
+	callsigns = { "Dashi" "Lulu" "Dinky" "Muffin" "Fighter of Ponyville" "Truffle" "Tanki" "Bearded" "Black Cloud" "The Black Sentry" "The Blond Guard Of Equestria" "Clipper" "Fighter of Canterlot" "Petit Rouge" "Surprise" "The Red Wonderbolt" "The Red Battle-flyer" "The Red Guard" "Aimbush" "Fighter of Cloudsdale" }
+}
+
+CLE = {
+	male = {
+		names = {  Wind Svengallop Gladmane Flim Flam Snails Shining Record Thorax Big Braeburn Hayseed Apple
+			Cloudy Mr. Zephyr Pound Snip Pip Rumbke Tender Gladmane Fiery Soarin Joe Night Filthy Thunderlane
+			Bulk Flash Cheese Double Sunburst Quibble	
+			Sky Buck Ace Caramel Dr. Jeff Lucky Shooting Walter Crafty Star Neon Rare 
+			Royal Blender Ozean Bright Button Cotton Finish Stirke Truffle Tornado Action Shimmer Wave Guardian
+
+		}
+	}
+	female = {
+		names = { Apple Sweetie Babs Gabby Flurry Granny Maud Mrs. Diamond Zecora Silver Twist Sunset Trixie 
+			Suri Spoieled Daring Dizzy Coloratura Spitfire Blaze Fleetfoot Misty High
+			Cheerilee Jet Lightning Ms. Sugar Tree Moon Sassy Vapor Angel Sweetcream 
+			Bubble Fluffy Clover Berry Candy Cherry Coco Daisy Octavia Vinyl}
+	}
+	surnames = { 
+		Do Pie Smith Rose Breeze Dash Cake Taps Bolts Rider Pants
+		Redheart Goodall Whooves Bellator Melody Melodie Light Silverstar Crust Dust Safari 
+		Glider Belle Punch Hooves Whooves Hugger Dancer Wings Trail Stringer Scoops Singer Gaffer Burst Withers Huricane 
+		Shot Cobbler Fritter Cider Dreams Dreamers Apples Fizzy Dove Harvest Jevel 
+		Wave Sweet Riff Fare Mash 
+		}
+	callsigns = { "Dashi" "Lulu" "Dinky" "Muffin" "Fighter of Ponyville" "Truffle" "Tanki" "Bearded" "Black Cloud" "The Black Sentry" "The Blond Guard Of Equestria" "Clipper" "Fighter of Canterlot" "Petit Rouge" "Surprise" "The Red Wonderbolt" "The Red Battle-flyer" "The Red Guard" "Aimbush" "Fighter of Cloudsdale" }
+}
+
+CHE = {
+	male = {
+		names = {  Wind Svengallop Gladmane Flim Flam Snails Shining Record Thorax Big Braeburn Hayseed Apple
+			Cloudy Mr. Zephyr Pound Snip Pip Rumbke Tender Gladmane Fiery Soarin Joe Night Filthy Thunderlane
+			Bulk Flash Cheese Double Sunburst Quibble	
+			Sky Buck Ace Caramel Dr. Jeff Lucky Shooting Walter Crafty Star Neon Rare 
+			Royal Blender Ozean Bright Button Cotton Finish Stirke Truffle Tornado Action Shimmer Wave Guardian
+
+		}
+	}
+	female = {
+		names = { Apple Sweetie Babs Gabby Flurry Granny Maud Mrs. Diamond Zecora Silver Twist Sunset Trixie 
+			Suri Spoieled Daring Dizzy Coloratura Spitfire Blaze Fleetfoot Misty High
+			Cheerilee Jet Lightning Ms. Sugar Tree Moon Sassy Vapor Angel Sweetcream 
+			Bubble Fluffy Clover Berry Candy Cherry Coco Daisy Octavia Vinyl}
+	}
+	surnames = { 
+		Do Pie Smith Rose Breeze Dash Cake Taps Bolts Rider Pants
+		Redheart Goodall Whooves Bellator Melody Melodie Light Silverstar Crust Dust Safari 
+		Glider Belle Punch Hooves Whooves Hugger Dancer Wings Trail Stringer Scoops Singer Gaffer Burst Withers Huricane 
+		Shot Cobbler Fritter Cider Dreams Dreamers Apples Fizzy Dove Harvest Jevel 
+		Wave Sweet Riff Fare Mash 
+		}
+	callsigns = { "Dashi" "Lulu" "Dinky" "Muffin" "Fighter of Ponyville" "Truffle" "Tanki" "Bearded" "Black Cloud" "The Black Sentry" "The Blond Guard Of Equestria" "Clipper" "Fighter of Canterlot" "Petit Rouge" "Surprise" "The Red Wonderbolt" "The Red Battle-flyer" "The Red Guard" "Aimbush" "Fighter of Cloudsdale" }
+}

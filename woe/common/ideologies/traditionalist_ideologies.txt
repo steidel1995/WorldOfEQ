@@ -1,0 +1,8 @@
+ideologies = {
+
+	neutrality = {
+
+		can_be_boosted = yes
+
+	}
+}
