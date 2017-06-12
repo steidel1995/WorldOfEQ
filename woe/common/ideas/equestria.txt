@@ -1,0 +1,777 @@
+ideas = {
+
+	country = {
+		sour_loser = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+		
+	political_advisor = {		
+		flim = {
+
+			picture = flim
+
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { armaments_organizer }
+		}
+		
+		apple_jack = {
+
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { captain_of_industry }
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		
+		flam = {
+
+			picture = flam
+
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { war_industrialist }
+
+			ai_will_do = {
+				factor = 3
+			}
+		}
+
+		princess_celestria = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { communist_revolutionary }
+	
+			on_add = {
+				country_event = political.1
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+			
+		princess_luna = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { democratic_reformer }
+	
+			on_add = {
+				country_event = political.13
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		discord = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { fascist_demagogue }
+	
+			on_add = {
+				country_event = political.7
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		sweetie_belle = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { silent_workhorse }
+		}
+		
+		trixie = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		apple_bloom = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { silent_workhorse }
+		}
+		
+		scootaloo = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { backroom_backstabber }
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		big_mcintosh = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { fortification_engineer }
+		}
+	}
+
+	
+	# TECHNOLOGY
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		apple_tank = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { heavy_tank_manufacturer }
+
+		}
+		
+		timber_tank = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		stable_tec = {
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				armor = 0.20
+			}
+			
+			traits = { medium_tank_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		equestriandocks = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				
+			}
+			
+			traits = { convoy_escort_naval_manufacturer }
+			
+		}
+		
+		manehatten_industies = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+		}	
+	}
+	
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		cloudsd = {
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		stratusburg = { 
+			allowed = {
+				original_tag = EQR
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { CAS_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+		
+
+		hoofingtonp = { 
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		stable_tec = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			
+			research_bonus = {
+				air_equipment = 0.20
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		hayseedc = {
+
+			allowed = {
+				original_tag = EQR
+			}
+			
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+	
+	industrial_concern = {	
+		flim_flam_brothers = {
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				industry = 0.10
+				
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		stable_tec = {
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}		
+	}
+	
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		sweetys = {
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+				# +10% arty/at/aa research speed
+			}
+		}
+		
+		infantry_equipment = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		
+
+		
+		stable_tec = {
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
+	
+	theorist = {
+		dr_whooves = {
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				rocketry = 0.10
+			}
+			
+			traits = { rocket_scientist }
+		}
+		
+		sunset_shimmer = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+		
+			research_bonus = {
+				nuclear = 0.10
+			}
+			
+			traits = { nuclear_scientist }
+		}
+		
+		flash_sentry = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_mobile_warfare = 0.10
+			}
+			
+
+			traits = { mobile_warfare_expert }
+		}
+		
+		spitfire = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { victory_through_airpower }
+		}
+		
+		soarin = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+		
+		blaze = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { dive_bomber }
+		}
+		
+	}	
+		
+	# MILITARY
+	army_chief = {
+
+		pinkie_pie = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { army_artillery_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		shining_armor  = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+						
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		aryanne = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+						
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	air_chief = {
+		
+		rainbow_dash = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+						
+			traits = { air_chief_all_weather_3 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		
+		fluttershy = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+						
+			traits = { air_chief_safety_2 }
+			
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		
+		princess_luna = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+						
+			traits = { air_chief_night_operations_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	navy_chief = { #CHIEF OF NAVY
+		
+		surprice = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+						
+			traits = { navy_naval_air_defense_1 }
+			
+			ai_will_do = {
+				factor = 0.1
+			}
+		}
+		
+		wind_rider = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+						
+			traits = { navy_carrier_2 }
+			
+			ai_will_do = {
+				factor = 0.1
+			}
+		}
+	}
+
+	high_command = {
+
+		shining_armor = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		dr_whooves = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		zecora = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+		
+		derpy = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		wild_fire = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { air_bomber_interception_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		fleetfoot = {
+
+			
+			allowed = {
+				original_tag = EQR
+			}
+			
+			traits = { air_airborne_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+}

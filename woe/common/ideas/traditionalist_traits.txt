@@ -1,0 +1,8 @@
+leader_traits = {
+	staunch_traditionalist = {
+		random = no
+		# Boosts Neutrality
+		sprite = 13
+		neutrality_drift = 0.1
+	}
+}

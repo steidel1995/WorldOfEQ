@@ -1,0 +1,19 @@
+ideas = {
+
+	country = {
+		traditionalist_revolutionaries = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				unity_factor = -0.1
+			}
+		}
+	}
+}
